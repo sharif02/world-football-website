@@ -5,25 +5,22 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
     .players{
      flex-direction: column;    
      flex-wrap: wrap;
     }
     .more-player{
         flex-direction: column;
-        width: 30%;
         flex-wrap: wrap;
     }
     .more-player1{
         flex-direction: column;
-        width: 30%;
         flex-wrap: wrap;
         
     }
     .more-player2{
-        flex-direction: column;
-        width: 30%;
+        flex-direction: column;       
         flex-wrap: wrap;
     }
     .header-area{
@@ -33,12 +30,20 @@ body{
     .header-area{
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 30px;
     }
     .footer-area{
         flex-direction: column;
         flex-wrap: wrap;
         text-align: start;
     }
+    .player{
+        margin-top: 10px;
+    }
+    .single-player{
+        margin-top: 20px;
+        margin-left: 5px;
+}
 
 }
 
@@ -53,34 +58,67 @@ body{
 /* header section style */
 .container{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1fr);
     width: 99.9%;
     height: 700px;
     margin: 0px;
     background: #2D25A0;
 }
+ /* menu style start */
+.menu-area{
+    display: flex;
+}
+.nav-menu{
+    width: 45%;
+    display: left;
+    margin-top: 30px;
+    font-style: 24px;
+}
+.navigation ul li {
+    display: inline-block;
 
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 15px;
+    
+}
+.login-btn{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 22px;
+    
+    margin-left: 40%;
+    color: aliceblue;
+
+}
+.login-btn a{
+    color: white;
+    text-decoration: none;
+}
 .header-area{
     display: flex;
-    row-gap: 10px;
-    width: 90%;
-    align-items: center;
-    margin: 10px;
+    justify-content: center;
+    width: 98%;
+    margin-top: 0px;
     
 }
 .header-content{
-    width: 50%;
+    width: 48%;
     height:230px;
-    margin-top: 0px;
+    margin-top: 60px;
     margin-left: 100px;
   
 }
 .header-banner{
-    width: 50%;
+    width: 48%;
+    margin-top: 60px;
+
 }
 .hedding-style{
     color: white;
-    font-size: 60px;
+    font-size: 64px;
     margin: 8px;
 }
 .btn-area{
@@ -110,12 +148,13 @@ body{
 .header-banner{
     width: 557px;
     height: 438px;
-    margin-top: 153px;
+    margin-top: 15px;
     margin-left: 35px;
 }
 .header-banner img{
     width: 556px;
     height: 438px;
+    margin-top: 0px;
 
 }
 /* main section style */
