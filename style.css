@@ -41,6 +41,14 @@ body{
     }
 
 }
+
+
+.heading-style{
+    color: salmon;
+}
+.para-heading{
+    color: skyblue;
+}
  
 /* header section style */
 .container{
@@ -192,7 +200,7 @@ body{
 .highlets-area{
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 80px;
 }
 .content-area{
     width: 50%;
@@ -203,7 +211,7 @@ body{
 .image-area{
     width: 50%;
     height: 427px;
-    margin-left: 50px;
+    margin-left: 100px;
 
 }
 .image-area img{
