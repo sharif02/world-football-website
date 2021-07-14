@@ -1,0 +1,142 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+/* header section style */
+.container{
+width: 99.9%;
+height: 677px;
+background: #2D25A0;
+}
+
+.header-area{
+    display: flex;
+    row-gap: 10px;
+    width: 90%;
+    align-items: center;
+    margin: 20px;
+    
+}
+.header-content{
+    width: 455px;
+    height:230px;
+    margin-top: 0px;
+    margin-left: 100px;
+  
+}
+.hedding-style{
+    color: white;
+    font-size: 60px;
+    margin: 8px;
+}
+.btn-area{
+    display: flex;
+    width:168px;
+    height: 44px;
+    color: #ffffff;
+    background: #E02C6D;
+    padding: 2px;
+    border-radius: 15px;
+}
+.btn{
+    text-decoration: none;
+    padding:10px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #ffffff; 
+}
+.btn-area:hover{
+    background: pink;
+    
+    
+}
+ .row{
+    padding-top:10px ;
+}
+.header-banner{
+    width: 557px;
+    height: 438px;
+    margin-top: 153px;
+    margin-left: 35px;
+}
+.header-banner img{
+    width: 556px;
+    height: 438px;
+
+}
+/* main section style */
+
+/* players section */
+
+.players{
+    display: flex;
+    /* flex-direction: row ; */
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+.player img{
+    width: 325px;
+    height: 256px;
+    padding: 0px;
+
+}
+
+/* highlights area */
+.highlets-area{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.content-area{
+    width: 466px;
+    height: 309px;
+    margin: 30px;
+
+}
+.image-area{
+    width: 567px;
+    height: 427px;
+    margin-left: 50px;
+
+}
+.image-area img{
+    width: 100%;
+}
+
+/* footer section */
+.footer-area{
+    text-align: center;
+    margin: 0px;
+}
+.logo{
+    width:483px ;
+    height: 213px;
+    margin-left: 300px;
+}
+.logo img{
+    width: 100%;
+    margin-left: 10px;
+}
+.social-icon{
+    margin-left: 7px;
+    margin: 10px;
+    font-size: 28px;
+}
+.icon{
+    margin-left: 10px;
+    size: 20px;
+
+}
