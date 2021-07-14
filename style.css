@@ -7,9 +7,11 @@ body{
  
 /* header section style */
 .container{
-width: 99.9%;
-height: 677px;
-background: #2D25A0;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 99.9%;
+    height: 677px;
+    background: #2D25A0;
 }
 
 .header-area{
@@ -70,9 +72,17 @@ background: #2D25A0;
 /* main section style */
 
 /* players section */
+.main-area{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    align-items: center;
+    width: 85%;
+}
 
 .players{
-    display: flex;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
     /* flex-direction: row ; */
     margin-top: 30px;
     margin-left: 80px;
@@ -92,6 +102,30 @@ background: #2D25A0;
     height: 256px;
     padding: 0px;
 
+}
+/* more-player */
+.more-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    margin-left: 115px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.single-player{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+.single-player img{
+    width: 325px;
+    height: 256px;
+    padding: 0px;
 }
 
 /* highlights area */
@@ -125,6 +159,10 @@ background: #2D25A0;
     width:483px ;
     height: 213px;
     margin-left: 300px;
+}
+.logo-img{
+    width: 483px;
+    height: 110px;
 }
 .logo img{
     width: 100%;
